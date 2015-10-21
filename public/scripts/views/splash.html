@@ -1,0 +1,16 @@
+<div id = "splash"  data-splash_size ng-class="{'hideSplash': scrollHide || panelClicked, 'show': !scrollHide, 'chalk': chalk && !panelClicked && !scrollHide}">
+
+<div id = "title"><a href = "/" ng-click="reload()" >
+
+ <img  ng-class="{'show': scrollHide || panelClicked, 'hide': !scrollHide}" id = "logo"  src="/images/logo_new_bridge_white_small.png">
+</a>
+
+<h1 class = "lead text-center"  ng-class="{ 'hide': panelClicked }" ng-click="showChalk()">LTAP/TTAP Academy </h1>
+	 <img    data-splash_size alt = "LTAP/TTAP Academy Logo"  id = "logoLarge" class = "text-center center-block " ng-class="{'hide': scrollHide || panelClicked}" src="/images/logo_new_bridge.png">
+	<div id = "catchPhrase" class = "text-center brownGray" ng-class="{'hide': scrollHide || panelClicked}" > <h3 id = "catchPhrase" ng-class = "{  'chalk': chalk}" >The Academy, a place to learn about LTAP :)
+
+<br>And here is some more text in the center</h3>
+</div><hr data-splash_size ng-class="{'hide': panelClicked}">
+</div>
+</div>
+<h1 class = "text-center choose" ng-class="{'show': scrollHide || panelClicked, 'hide': !scrollHide}">Choose a Module</h3>

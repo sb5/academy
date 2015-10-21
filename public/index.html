@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html xmlns:ng="http://angularjs.org" id="ng-app" ng-app = "academy" ng-controller = "mainController">
+
+<head>
+
+<script  type="text/javascript"> if (!window.console) console = {log: function() {}}; </script>
+
+  <!-- Bootstrap core CSS -->
+<!-- <link href="//netdna.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet"> -->
+
+
+<!--  <link href="//netdna.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
+ -->  <link href="/stylesheets/acad.css" rel="stylesheet">
+<meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"> <meta name="description" content="">
+<meta name="author" content="">
+
+
+<title>LTAP/TTAP Academy</title>
+
+
+
+<!-- Custom stylxes for this template -->
+
+
+
+
+<script src="https://code.jquery.com/jquery-1.11.1.min.js"> </script>
+<script src = "http://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.6/angular.min.js"></script>
+<script type="text/javascript" src="http://malsup.github.com/jquery.corner.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.6/angular-route.js"></script>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.6/angular-animate.js"></script>
+
+<script src="/javascripts/core.js"></script>
+
+
+
+<!-- <link href="https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"> -->
+
+  <!--[if lt IE 9]>
+  <script>
+  if (!Array.prototype.indexOf)
+{
+  Array.prototype.indexOf = function(elt /*, from*/)
+  {
+    var len = this.length >>> 0;
+
+    var from = Number(arguments[1]) || 0;
+    from = (from < 0)
+         ? Math.ceil(from)
+         : Math.floor(from);
+    if (from < 0)
+      from += len;
+
+    for (; from < len; from++)
+    {
+      if (from in this &&
+          this[from] === elt)
+        return from;
+    }
+    return -1;
+  };
+}
+</script>
+
+    <![endif]-->
+  </head>
+  <body  ng-class = "{'fade':fade}"  >
+<!-- <link href = '/stylesheets/style.css' rel = "stylesheet"> -->
+<link href = '/stylesheets/font-awesome.min.css' rel = "stylesheet">
+   <!--[if lte IE 8]>
+
+  <link href="/stylesheets/ie_fixes.css" rel="stylesheet">
+
+
+           <script>
+        document.createElement('ng-include');
+        document.createElement('ng-pluralize');
+        document.createElement('ng-view');
+           document.createElement('ng-class');
+
+
+
+        // Optionally these for CSS
+        document.createElement('ng:include');
+        document.createElement('ng:pluralize');
+        document.createElement('ng:view');
+
+      </script>
+ <![endif]-->
+
+<script src="/javascripts/respond.js"></script>
+
+</head>
+
+  <body>
+
+
+
+		<div ng-view></div>
+<script type="text/javascript">
+WebFontConfig = { fontdeck: { id: '55337' } };
+
+(function() {
+  var wf = document.createElement('script');
+  wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+  '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+  wf.type = 'text/javascript';
+  wf.async = 'true';
+  var s = document.getElementsByTagName('script')[0];
+  s.parentNode.insertBefore(wf, s);
+})();
+</script>
+  </body>
+</html>
+</html>

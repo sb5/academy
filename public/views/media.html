@@ -1,0 +1,81 @@
+
+<div id = "title" class="text-left ">
+<div class = "navbar"  ng-class="{'show': scrollHide || panelClicked, 'hide': !scrollHide}" >
+	<div class ="containe">
+	<ul class = "nav navbar-nav navbar-default">
+		<li><a  ng-click="reload()" > <!-- this is difffernt than link on index as we want to keep state of small icons -->
+
+ <img  id = "logo"  src="/images/ltapacademy_final_4_110.png">
+</a></li>
+
+<li class = "pull-right">
+<a href = "http://ltap.org"><img  id = "top_back" src = "http://www.ltap.org/images/LTAP-logo_.png"> </a>
+
+</li></ul>
+</div>
+</div>
+</div>
+<div class = "media_content row" >
+<div class="col-sm-12"><h1 class = " mediaTitle  text-center">{{currentLink.link_title}}</h1>
+<h1 class="moduleTitle lead text-center">{{panelTitle}}</h1>
+
+</div>
+<div class="col-sm-6 col-sm-offset-3" >
+
+<div align="center"  class="embed-responsive embed-responsive-16by9">
+<video id = "mediaPlayer"  ng-class = "{'fixVid':fixVid}"class='video center-block embed-responsive-item'
+ controls  preload ='metadata' preload='auto'  width = '550' height = '267'
+><source  src='	{{currentLink.video_url}}' TYPE='video/quicktime'
+PLUGINSPAGE='http://www.apple.com/quicktime/download/'/>
+<source src='{{currentLink.video_url}}'  type='video/mp4'/>
+
+
+<embed
+
+
+type='application/x-shockwave-flash' autobuffer ='false' autoplay='0'allowfullscreen='true' allowScriptAccess='always' class = 'video center-block embed-responsive-item'
+
+
+
+
+ src = '	{{currentLink.video_url}}'  type='application/x-shockwave-flash' autobuffer ='true' scale='tofit'   ></embed>
+<source src='	{{currentLink.video_url}}'  type='video/ogg'/>
+<source src='	{{currentLink.video_url}}' type='video/webm'/>
+
+</video>
+</div>
+
+
+</div>
+
+</div>
+
+
+   	<div class = "  row mediaInfo"   ng-class="{'mediaPanelLarge': panelClicked , 'mediaPanelSmall': !panelClicked}" id = "{{tag}}">
+
+		<div class = "col-sm-12 col-sm-offset-2">
+			<div class="panel-heading">
+
+
+	    <b class="brownGray">{{panelTitle}}</b> >
+
+
+  <select ng-model="currentLink"  ng-options="c.link_title for c in moduleSyllabusMediaItems" ng-change="go(currentLink.link)">
+
+    </select>
+
+	   <!-- not using the toggle for now <a alt   = "{{panelTitle}} - {{linkTitle}}"  ng-click = "togglePanel()" >></a>
+ -->
+		<div   ng-class = "{hyde: hyde , sho: sho}" tests class = "module_panel_info row">
+			<div class = "col-sm-6 col-sm-offset-1">
+				<div id = "overview">
+
+				<p>{{currentLink.link_text}}</p>
+				</div>
+
+
+			</div>
+		</div>
+
+	</div>
+</div>

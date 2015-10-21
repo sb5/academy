@@ -1,0 +1,271 @@
+
+
+<div class = "module_icons  " ng-class = "{'lessSpace':panelClicked, 'vert': whatIsLtapArray.indexOf(selected)>-1 || tbdArray.indexOf(selected)>-1}">
+<!--icons-->
+<div class ="center-block">
+ <div ng-class = "{'col-sm-offset-3':panelClicked, 'col-sm-offset-1': !panelClicked}" class="col-sm-1" >
+	<div class="thumbnail" colors-change = "wi">
+<a title = "What is LTAP/TTAP?" alt  = "What is LTAP/TTAP?"  ng-click = "getModule('wi')" >
+<img  ng-class="{sel: selected == 'wi' }"  src = "/images/icons_fake/NEWGREEN/WHATIS.jpg" alt="Interchange podcasts Icon" class="img-circle img-responsive module_icon module_icon_fog fa  fa-question fa-5x" ></a> <div class="caption">
+
+
+<div class = "row subsectionVertical " ng-class = "{'hide':!panelClicked}">
+
+<ul>
+
+<li><a title = "FHWA" alt =   "FHWA"  ng-click = "getModule('fhwa')" >
+
+	<img  style = "height: 30px !important; width: 30px !important; display:none;" ng-class="{'sel': selected == 'fhwa', 'show':  whatIsLtapArray.indexOf(selected)>-1 }"  src = "images/icons_fake/NEWGREEN/WHATIS.jpg" alt="Interchange podcasts Icon" class="img-circle img-responsive module_icon module_icon_fog fa  fa-laptop fa-5x" >
+</a>
+
+
+</li>
+
+
+<li><a title = "NLTAPA" alt =   "FHWA"  ng-click = "getModule('nltapa')" >
+
+	<img  style = "height: 30px !important; width: 30px !important; display:none;" ng-class="{'sel': selected == 'nltapa', 'show':  whatIsLtapArray.indexOf(selected)>-1 }"  src = "images/icons_fake/NEWGREEN/WHATIS.jpg" alt="Interchange podcasts Icon" class="img-circle img-responsive module_icon module_icon_fog fa  fa-laptop fa-5x" >
+</a>
+
+
+</li>
+
+<li><a title = "LTAP Centers" alt =   "FHWA"  ng-click = "getModule('ltap')" >
+
+	<img  style = "height: 30px !important; width: 30px !important; display:none;" ng-class="{'sel': selected == 'ltap', 'show':  whatIsLtapArray.indexOf(selected)>-1}"  src = "images/icons_fake/NEWGREEN/WHATIS.jpg" alt="LTAP Centers" class="img-circle img-responsive module_icon module_icon_fog fa  fa-laptop fa-5x" >
+</a>
+
+
+</li>
+<li><a title = "TTAP Centers" alt =   "FHWA"  ng-click = "getModule('ttap')" >
+
+	<img  style = "height: 30px !important; width: 30px !important; display:none;" ng-class="{'sel': selected == 'ttap', 'show':  whatIsLtapArray.indexOf(selected)>-1 }"  src = "images/icons_fake/NEWGREEN/WHATIS.jpg" alt="TTAP Centers" class="img-circle img-responsive module_icon module_icon_fog fa  fa-laptop fa-5x" >
+</a>
+
+
+</li>
+<li><a title = "Partners" alt =   "Partners"  ng-click = "getModule('partners')" >
+
+	<img  style = "height: 30px !important; width: 30px !important; display:none;" ng-class="{'sel': selected == 'partners', 'show': whatIsLtapArray.indexOf(selected)>-1 }"  src = "images/icons_fake/NEWGREEN/WHATIS.jpg" alt="Partners" class="img-circle img-responsive module_icon module_icon_fog fa  fa-laptop fa-5x" >
+</a>
+
+
+</li>
+</ul>
+</div>
+
+
+	        <h3 class = "center-block" ng-class="{'textLarge': !panelClicked , 'hide':  panelClicked}">What is LTAP/TTAP? </h3>
+	    </div>
+
+		</div>
+
+	</div>
+
+<div class="col-sm-1">
+	 	<div class="thumbnail" colors-change = "tbd" >	<a title = "Mission and Vision" alt ="TBD"  ng-click = "getModule('tbd')" ><img ng-class="{sel: selected == 'tbd'}" src = "/images/icons_fake/NEWGREEN/MISSION_VISION.jpg" alt="Interchange podcasts Icon" class="img-circle img-responsive module_icon module_icon_fog fa  fa-rocket fa-5x" > </a><div class="caption">
+
+<div class = "row subsectionVertical" >
+
+<ul>
+
+<li><a title = "mv" alt =   "Mission & Vision"  ng-click = "getModule('mv')" >
+
+	<img  style = "height: 30px !important; width: 30px !important; display:none;" ng-class="{'sel': selected == 'mv', 'show':  tbdArray.indexOf(selected)>-1 }"  src = "images/icons_fake/NEWGREEN/MISSION_VISION.jpg" alt="Interchange podcasts Icon" class="img-circle img-responsive module_icon module_icon_fog fa  fa-laptop fa-5x" >
+</a>
+
+
+</li>
+<li><a title = "Program Performance Tools" alt =   "Program Performance Tools"  ng-click = "getModule('ppt')" >
+
+	<img  style = "height: 30px !important; width: 30px !important; display:none;" ng-class="{'sel': selected == 'ppt', 'show':  tbdArray.indexOf(selected)>-1 }"  src = "images/icons_fake/NEWGREEN/MISSION_VISION.jpg" alt="Interchange podcasts Icon" class="img-circle img-responsive module_icon module_icon_fog fa  fa-laptop fa-5x" >
+</a>
+
+
+</li>
+
+
+</ul>
+</div>
+
+
+	        <h3 class = "center-block" ng-class="{'textLarge': !panelClicked , 'hide':  panelClicked}">TBD</h3>
+	    </div>
+
+		</div>
+	</div>
+		<div class="col-sm-1">
+	 	<div class="thumbnail" colors-change = "rr">	<a title = "Roles and Responsibilities" alt = "Roles and Responsibilities"  ng-click = "getModule('rr')" ><img ng-class="{sel: selected == 'rr'}" src = "/images/icons_fake/NEWGREEN/RR.jpg"  alt="Interchange podcasts Icon" class="img-circle img-responsive module_icon module_icon_fog fa  fa-gears fa-5x" > </a><div class="caption">
+	        <h3 class = "center-block" ng-class="{'textLarge': !panelClicked , 'hide':  panelClicked}">Roles, Responsibilities and Relationships</h3>
+	    </div>
+
+		</div>
+	</div>
+		<div class="col-sm-1">
+	 	<div class="thumbnail" colors-change = "rrii">	<a title = "Roles and Responsibilities II" alt = "Roles and Responsibilities II"  ng-click = "getModule('rrii')" ><img ng-class="{sel: selected == 'rrii'}" src = "/images/icons_fake/NEWGREEN/RR.jpg"  alt="Interchange podcasts Icon" class="img-circle img-responsive module_icon module_icon_fog fa  fa-gears fa-5x" > </a><div class="caption">
+	        <h3 class = "center-block" ng-class="{'textLarge': !panelClicked , 'hide':  panelClicked}">Roles, Responsibilities and Relationships II</h3>
+	    </div>
+
+		</div>
+	</div>
+	<div class="col-sm-1" colors-change = "com">
+	 	<div class="thumbnail">	<a title = "Communications" alt =  "Communications"  ng-click = "getModule('com')" ><img ng-class="{sel: selected == 'com' }" src = "/images/icons_fake/NEWGREEN/COM.jpg" alt="Interchange podcasts Icon" class="img-circle img-responsive module_icon module_icon_fog fa  fa-comments-o fa-5x"  ></a>
+	 	 <div class="caption">
+	        <h3 class = "center-block" ng-class="{'textLarge': !panelClicked , 'hide':  panelClicked}">Communications</h3>
+	    </div>
+
+		</div>
+	</div>
+	<div class="col-sm-1" >
+	  	<div class="thumbnail" colors-change ="rc" >
+	 		<a alt =  = "Running a Center"  title = "Running a Center" ng-click = "getModule('rc')" ><img ng-class="{sel: selected == 'rc'}"  src = "/images/icons_fake/NEWGREEN/RC.jpg" alt="Interchange podcasts Icon" class="img-circle img-responsive module_icon module_icon_fog fa  fa-building-o  fa-5x" >
+	 	</a> <div class="caption">
+	        <h3 class = "center-block" ng-class="{'textLarge': !panelClicked , 'hide':  panelClicked}">Running a Center</h3>
+	    </div>
+
+		</div>
+	</div>
+
+
+	<div class="col-sm-1">
+	 	<div class="thumbnail" colors-change = "fg">	<a title = "Feedback and Center Growth"  ><img   ng-click = "getModule('fg')" ng-class="{sel: selected == 'fg' }" src = "/images/icons_fake/NEWGREEN/RC.jpg" alt="Interchange podcasts Icon" class="img-circle img-responsive module_icon module_icon_fog fa  fa-volume-up fa-5x" ></a>
+	 	 <div class="caption">
+	        <h3 class = "center-block" ng-class="{'textLarge': !panelClicked , 'hide':  panelClicked}">Feedback and Center Growth</h3>
+	    </div>
+
+		</div>
+	</div>
+
+
+
+	<div class="col-sm-1" colors-change="td" >
+	 	<div class="thumbnail">	<a title = "Training Delivery" alt = "Training Delivery"  ng-click = "getModule('td')" ><img  src = "/images/icons_fake/NEWGREEN/TG.jpg" alt="Interchange podcasts Icon" class="img-circle img-responsive module_icon module_icon_fog fa  fa-graduation-cap fa-5x" ng-class="{sel: selected == 'td'}"></a>
+	 		<div class="caption">
+	        <h3 class = "center-block" ng-class="{'textLarge': !panelClicked , 'hide':  panelClicked}">Training Delivery</h3>
+	    </div>
+
+		</div>
+	</div>
+
+<div class="col-sm-1">
+	 	<div class="thumbnail" colors-change = "ta" >	<a title = "Technical Assistance" alt = "Technical Assistance"  ng-click = "getModule('ta')"  ><img  ng-class="{sel: selected == 'ta'}" src = "images/icons_fake/NEWGREEN/TA.jpg" alt="Interchange podcasts Icon" class="img-circle img-responsive module_icon module_icon_fog fa  fa-laptop fa-5x" ></a></a><div class="caption">
+	        <h3 class = "center-block" ng-class="{'textLarge': !panelClicked , 'hide':  panelClicked}">Technical Assistance</h3>
+	    </div>
+
+		</div>
+	</div>
+		<div class="col-sm-1" >
+	 	<div class="thumbnail"  colors-change="swd">	<a title = "Stuff We Do" alt =   "Stuff We Do"  ng-click = "getModule('swd')" ><img  ng-class="{sel: selected == 'swd' }" src = "/images/icons_fake/NEWGREEN/SD.jpg"  alt="Interchange podcasts Icon" class="img-circle img-responsive module_icon module_icon_fog fa  fa-road  fa-5x" ></a>
+	 	 <div class="caption">
+	        <h3 class = "center-block" ng-class="{'textLarge': !panelClicked , 'hide':  panelClicked}">Stuff We Do</h3>
+	    </div>
+
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+<div class ="clearfix"></div><br>
+<!-- <div class = "directions" ng-class="{'hide': panelClicked , 'show': !panelClicked}"><p class = "text-center"><i >*Pick a module to read the overview and view the syllabus. We can have more directions here </i></p></div> -->
+
+</div>
+
+<!--what is ltapttap subicons-->
+<div class = "row subsectionHorizontal hide clear"  ng-class="{ 'show':  whatIsLtapArray.indexOf(selected)>-1 && panelClicked}">
+	<div class ="center-block">
+<div class = "col-sm-1 col-sm-offset-2"><a title = "FHWA" alt =   "FHWA"  ng-click = "getModule('fhwa')" >
+
+	<img   ng-class="{'sel': selected == 'fhwa', 'show':  whatIsLtapArray.indexOf(selected)>-1 }"  src = "images/icons_fake/NEWGREEN/WHATIS.jpg" alt="Interchange podcasts Icon" class="img-circle img-responsive module_icon    module_subsection_icon" >
+</a>
+
+
+</div>
+
+
+<div class = "col-sm-1"><a title = "NLTAPA" alt =   "FHWA"  ng-click = "getModule('nltapa')" >
+
+	<img    ng-class="{'sel': selected == 'nltapa', 'show':  whatIsLtapArray.indexOf(selected)>-1 }"  src = "images/icons_fake/NEWGREEN/WHATIS.jpg" alt="Interchange podcasts Icon" class="img-circle img-responsive module_icon    module_subsection_icon" >
+</a>
+
+
+</div>
+
+<div class = "col-sm-1"><a title = "LTAP Centers" alt =   "FHWA"  ng-click = "getModule('ltap')" >
+
+	<img  ng-class="{'sel': selected == 'ltap', 'show':  whatIsLtapArray.indexOf(selected)>-1}"  src = "images/icons_fake/NEWGREEN/WHATIS.jpg" alt="LTAP Centers" class="img-circle img-responsive module_icon   module_subsection_icon" >
+</a>
+
+
+</div>
+<div class = "col-sm-1"><a title = "TTAP Centers" alt =   "FHWA"  ng-click = "getModule('ttap')" >
+
+	<img   ng-class="{'sel': selected == 'ttap', 'show':  whatIsLtapArray.indexOf(selected)>-1 }"  src = "images/icons_fake/NEWGREEN/WHATIS.jpg" alt="TTAP Centers" class="img-circle img-responsive module_icon     module_subsection_icon" >
+</a>
+
+
+</div>
+<div class = "col-sm-1"><a title = "Partners" alt =   "Partners"  ng-click = "getModule('partners')" >
+
+	<img   ng-class="{'sel': selected == 'partners', 'show': whatIsLtapArray.indexOf(selected)>-1 }"  src = "images/icons_fake/NEWGREEN/WHATIS.jpg" alt="Partners" class="img-circle img-responsive module_icon     module_subsection_icon" >
+</a>
+
+
+</div>
+
+
+
+
+
+</div>
+
+
+ </div>
+<!-- end what is -->
+
+<!-- start tbd -->
+
+<div class = "row subsectionHorizontal hide"  ng-class="{ 'show':  tbdArray.indexOf(selected)>-1 && panelClicked}">
+	<div class ="center-block">
+		<div class = "col-sm-3 col-sm-offset-sp"></div>
+<div class = "col-sm-1 "><a title = "mv" alt =   "FHWA"  ng-click = "getModule('mv')" >
+
+	<img   ng-class="{'sel': selected == 'mv', 'show':  tbdArray.indexOf(selected)>-1 }"  src = "images/icons_fake/NEWGREEN/MISSION_VISION.jpg" alt="Interchange podcasts Icon" class="img-circle img-responsive module_icon   module_subsection_icon" >
+</a>
+
+
+</div>
+
+
+<div class = "col-sm-1"><a title = "Program Performance Tools"  alt = "Program Performance Tools"  ng-click = "getModule('ppt')" >
+
+	<img  ng-class="{'sel': selected == 'ppt', 'show':  tbdArray.indexOf(selected)>-1 }"  src = "images/icons_fake/NEWGREEN/MISSION_VISION.jpg" alt="Interchange podcasts Icon" class="img-circle img-responsive module_icon   module_subsection_icon" >
+</a>
+
+
+</div>
+
+
+
+
+
+
+</div>
+
+
+ </div>
+
+
+<!-- end tbd -->
+
+</div> <!-- end icons -->
+
+
+
+<div class = " text-center center-block row " style = "display:none;" ng-class = "{'hide': panelClicked}">
+	<a href = "http://ltap.org"><img  id = "back" src = "http://www.ltap.org/images/LTAP-logo_.png"> </a>
+		</div>

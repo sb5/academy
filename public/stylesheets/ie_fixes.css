@@ -1,0 +1,9 @@
+video{height:70% !important ;}.subsectionHorizontal{z-index: 1;}
+.thumbnail {
+  
+  padding: 2px;
+}
+h2#catchPhrase{margin-bottom: 5%;}
+#splash.chalk{padding-bottom: 15%;}
+.panel{z-index:2;background: white;}
+/*.subsectionVertical{display: none;}*/
